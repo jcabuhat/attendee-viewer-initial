@@ -7,7 +7,7 @@ applications:
       SPRING_PROFILES_ACTIVE: cloud,dev
     instances: 1
     memory: 1G
-    name: company
+    name: attendee
     path: build/libs/attendee-viewer-initial.jar
     timeout: 180
     services: 
