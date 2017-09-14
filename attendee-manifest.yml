@@ -5,6 +5,7 @@ applications:
     disk_quota: 1024M
     env: 
       SPRING_PROFILES_ACTIVE: cloud,dev
+      CF_STAGING_TIMEOUT: 30
     instances: 1
     memory: 1G
     name: attendee
@@ -12,4 +13,5 @@ applications:
     timeout: 180
     services: 
       - cfgserverrepo
+      - gitoauth2
 
