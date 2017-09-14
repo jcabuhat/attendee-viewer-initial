@@ -2,7 +2,7 @@
 
 spring:
   application:
-    name: attendee-viewer
+    name: attendee
   cloud:
     config:
       uri: ${vcap.services.cfgserverrepo.credentials.cfguri}   
@@ -10,7 +10,3 @@ spring:
 management:
   security:
     enabled: false
-
-feign:
-  hystrix:
-    enabled: true
